@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Did you know how many people have more than $10 a day?</title>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+</head>
+ 
+<body>
+    <a-scene class="fullscreen" fog="color: #222b53; far: 8; near: 0; density: 0" >
+     
+    <a-assets>
+         <a-asset-item id="person" src="https://raw.githubusercontent.com/coob113/num/master/scene.gltf"></a-asset-item>
+    </a-assets>
+       <a-entity position="0 1.6 0" camera="userHeight: 0.01" look-controls></a-entity>
+        
+    <a-plane color="#222b53" height="100" width="100" rotation="-90 0 0"></a-plane>
+    
+
+    <a-entity position="0 0 -2" text__header="width:1.2;wrapCount:14;value:Lifetime income in India;color:#fff;lineHeight:40;letterSpacing:1.5;height:1.5;font:exo2bold;tabSize:5;align:center" rotation="-90 0 0"></a-entity>
+    <a-entity position="1.4 0 -1.4" rotation="-90 -45 0" text__header="width:1.2;value:Lifetime income in the USA;color:#fff;lineHeight:40;wrapCount:16;font:exo2bold;align:center;height:2;letterSpacing:2;tabSize:5"></a-entity><a-entity position="2 0 0" rotation="-90 -90 0" text__header="align:center;color:#fff;font:exo2bold;height:2;letterSpacing:2;lineHeight:40;tabSize:5;value:Lifetime income in the USA;width:1.2;wrapCount:16"></a-entity><a-entity position="1.4 0 1.4" rotation="-90 -135 0" text__header="align:center;color:#fff;font:exo2bold;height:2;letterSpacing:2;lineHeight:40;tabSize:5;value:Lifetime income in the USA;width:1.2;wrapCount:16"></a-entity><a-entity position="0 0 2" rotation="-90 -180 0" text__header="align:center;color:#fff;font:exo2bold;height:2;letterSpacing:2;lineHeight:40;tabSize:5;value:Lifetime income in the USA;width:1.2;wrapCount:16"></a-entity><a-entity position="-1.4 0 1.4" rotation="-90 -225 0" text__header="align:center;color:#fff;font:exo2bold;height:2;letterSpacing:2;lineHeight:40;tabSize:5;value:Lifetime income in the USA;width:1.2;wrapCount:16"></a-entity>
+    <a-entity position="-1.4 0 -1.4" rotation="-90 45 0" text__header="width:1.2;wrapCount:14;value:Annual income in the USA;color:#fff;lineHeight:40;font:exo2bold;align:center;height:2;letterSpacing:2;tabSize:5"></a-entity><a-entity position="-2 0 0" rotation="-90 90 0" text__header="width:1.2;wrapCount:14;value:Annual income in India;color:#fff;lineHeight:40;font:exo2bold;align:center;height:2;letterSpacing:2;tabSize:5"></a-entity>
+    
+
+    <a-sky color="#222b53"></a-sky>
+    
+    </a-scene>
+  
+    <textarea readonly="" style="font-size: 12pt; border: 0px; padding: 0px; margin: 0px; position: absolute; left: -9999px; top: 0px;"></textarea>
+    
+    
+</body>
+</html>
+
